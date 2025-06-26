@@ -14,9 +14,8 @@
 		"noEmit": true,
 		"jsx": "react-jsx",
 
-		/* Linting - Modified to be less strict */
+		/* Linting */
 		"strict": true,
-		"noImplicitAny": false,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
@@ -26,6 +25,5 @@
 			"@/*": ["./src/*"]
 		}
 	},
-	"include": ["src"],
-	"exclude": ["src/components/ui/**/*"]
+	"include": ["src"]
 }
